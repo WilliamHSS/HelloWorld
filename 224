@@ -1,1 +1,5 @@
-My name is William.
+$(document).ready(function(){
+  $('div').click(function(){
+    $('div').fadeOut();
+  });
+});
